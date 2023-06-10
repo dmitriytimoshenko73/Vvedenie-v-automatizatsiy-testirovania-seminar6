@@ -1,10 +1,11 @@
 package org.max.demo;
 
-import io.qameta.allure.Description;
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import java.util.concurrent.ThreadLocalRandom;
 
 public class ReportAllureTest {
 
@@ -14,7 +15,6 @@ public class ReportAllureTest {
         //when
         //then
         Assertions.assertTrue(true);
-       // TimeUnit u = TimeUnit.MILLISECONDS;
     }
 
     @Test
@@ -53,18 +53,80 @@ public class ReportAllureTest {
         Assertions.assertTrue(true);
     }
 
-    @Test
+ //Пример со Step работает только при компиляции под java 8
+ /*   @Test
     void stepTest() {
         //given
-        ReportAllureUtils.given();
+        given();
         //when
-        ReportAllureUtils.when();
+        when();
         //then
-        ReportAllureUtils.then();
+        then();
     }
 
+    @Step
+    public static void given(){
+        System.out.println("given");
+    };
+    @Step
+    public static void when(){
+        System.out.println("when");
+    };
+    @Step
+    public static void then(){
+        System.out.println("then");
+    };*/
 
+    @Test
+    @Link("http://gb.ru")
+    @TmsLink("http://tms/100")
+    @Issue("http://tms/100")
+    void linkTest() {
+        //given
+        //when
+        //then
+        Assertions.fail();
+    }
 
+    @Test
+    @Severity(SeverityLevel.BLOCKER)
+    void severityTest() {
+        //given
+        //when
+        //then
+        Assertions.fail();
+    }
+
+    @Test
+    @Owner("Кравченко Максим")
+    void ownerTest() {
+        //given
+        //when
+        //then
+        Assertions.assertTrue(true);
+    }
+
+    @Test
+    @Epic(value = "Математика")
+    @Feature(value = "Простые математические операции")
+    @Story(value = "Сложение")
+    void epicStoryFeatureSuccessTest() {
+        //given
+        //when
+        //then
+        Assertions.fail();
+    }
+
+    @Test
+    @Epic(value = "Математика")
+    @Feature(value = "Простые математические операции")
+    @Story(value = "Вычитание")
+    void epicStoryFeatureNotSuccessTest() {
+        //given
+        //when
+        //then
+        Assertions.assertTrue(true);
+    }
 
 
 }
