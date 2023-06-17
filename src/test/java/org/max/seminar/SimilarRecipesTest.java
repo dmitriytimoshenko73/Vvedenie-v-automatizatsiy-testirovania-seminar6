@@ -1,16 +1,26 @@
 package org.max.seminar;
 
+import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
+@Epic(value = "Тестирование API https://spoonacular.com/food-api")
+@Feature(value = "Семинар")
 public class SimilarRecipesTest extends AbstractTest {
 
     @Test
+    @DisplayName("SimilarRecipesTest")
+    @Description("GET SimilarRecipes")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Кравченко Максим")
+    @Story(value = "Тестирование метода SimilarRecipes")
     void getSimilarRecipes_whenValid_shouldReturn() {
         List<SimilarRecipesDto> response = given()
                 .queryParam("apiKey", getApiKey())
