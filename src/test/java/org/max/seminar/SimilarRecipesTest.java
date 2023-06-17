@@ -3,7 +3,6 @@ package org.max.seminar;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.max.lesson3.AbstractTest;
 
 import java.util.List;
 
