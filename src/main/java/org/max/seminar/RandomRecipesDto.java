@@ -1,6 +1,6 @@
 package org.max.seminar;
 
-import org.max.lesson3.seminar.recipers.OrgMaxLesson3Seminar;
+import org.max.seminar.recipers.OrgMaxLesson3Seminar;
 
 import java.util.List;
 
