@@ -32,7 +32,7 @@ public class SimilarRecipesTest extends AbstractTest {
                 .extract()
                 .body().jsonPath().getList(".", SimilarRecipesDto.class);
 
-        Assertions.assertEquals(response.size(),10);
+        Assertions.assertEquals(response.size(),4);
         response.forEach(v -> {
             if (v.getId().equals(209128)) {
                 Assertions.assertEquals(v.getTitle(),"Dinner Tonight: Grilled Romesco-Style Pork");

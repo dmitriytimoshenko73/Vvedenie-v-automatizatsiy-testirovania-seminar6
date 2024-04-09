@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9a20559-6188-4d36-8c76-abe8a8087535" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/demo/ReportAllureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/max/demo/ReportAllureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/seminar/SimilarRecipesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/max/seminar/SimilarRecipesTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/Maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2egqKK5PRBDwWY5g5deOKjFYtb9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ClassifyCuisineTest.post_shouldReturn200.executor": "Run",
+    "JUnit.ConvertAmountsTest.getConvertAmounts_whenValid_shouldReturn.executor": "Run",
+    "JUnit.GetLocationTest.executor": "Run",
+    "JUnit.GetLocationTest.getAdministrativeArea.executor": "Run",
+    "JUnit.GetLocationTest.get_shouldReturn401.executor": "Run",
+    "JUnit.IngredientSubstitutesTest.get_shouldReturn200.executor": "Run",
+    "JUnit.SimilarRecipesTest.getSimilarRecipes_whenValid_shouldReturn.executor": "Run",
+    "Maven.auto [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "Maven.auto [package].executor": "Run",
+    "Maven.auto [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "lesson6",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dmitrijtimosenko/IdeaProjects/Vvedenie-v-automatizatsiy-testirovania",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.SimilarRecipesTest.getSimilarRecipes_whenValid_shouldReturn">
+    <configuration name="ClassifyCuisineTest.post_shouldReturn200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.spoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar.spoon" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.spoon.ClassifyCuisineTest" />
+      <option name="METHOD_NAME" value="post_shouldReturn200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertAmountsTest.getConvertAmounts_whenValid_shouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.ConvertAmountsTest" />
+      <option name="METHOD_NAME" value="getConvertAmounts_whenValid_shouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetLocationTest.getAdministrativeArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.accu.GetLocationTest" />
+      <option name="METHOD_NAME" value="getAdministrativeArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngredientSubstitutesTest.get_shouldReturn200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.spoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar.spoon" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.spoon.IngredientSubstitutesTest" />
+      <option name="METHOD_NAME" value="get_shouldReturn200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimilarRecipesTest.getSimilarRecipes_whenValid_shouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.SimilarRecipesTest" />
+      <option name="METHOD_NAME" value="getSimilarRecipes_whenValid_shouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimilarRecipesTest.getSimilarRecipes_whenValid_shouldReturn" />
+        <item itemvalue="JUnit.ConvertAmountsTest.getConvertAmounts_whenValid_shouldReturn" />
+        <item itemvalue="JUnit.GetLocationTest.getAdministrativeArea" />
+        <item itemvalue="JUnit.IngredientSubstitutesTest.get_shouldReturn200" />
+        <item itemvalue="JUnit.ClassifyCuisineTest.post_shouldReturn200" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9a20559-6188-4d36-8c76-abe8a8087535" name="Changes" comment="" />
+      <created>1712336503871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712336503871</updated>
+      <workItem from="1712336505000" duration="301000" />
+      <workItem from="1712336819157" duration="54000" />
+      <workItem from="1712336892398" duration="151000" />
+      <workItem from="1712337051834" duration="4077000" />
+      <workItem from="1712341145762" duration="87000" />
+      <workItem from="1712341387905" duration="13000" />
+      <workItem from="1712681889407" duration="1885000" />
+    </task>
+    <task id="LOCAL-00001" summary="add">
+      <option name="closed" value="true" />
+      <created>1712681972095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712681972095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/lesson6" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/max/seminar/ConvertAmountsTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
